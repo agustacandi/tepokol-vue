@@ -1,5 +1,5 @@
 <template>
-  <Hero menu="Gallery" slug="" />
+  <Hero menu="Gallery" />
   <main>
     <div class="lg:container lg:mx-auto px-5 py-5 space-y-5 lg:py-28 lg:px-10">
       <!-- Top Gallery -->
