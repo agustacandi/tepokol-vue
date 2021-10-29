@@ -63,56 +63,32 @@
         </div>
         <div class="lg:w-5/12 pt-5 space-y-5">
           <p class="font-bold lg:text-right text-purple-400">View All</p>
-          <div
-            class="
-              w-full
-              bg-white
-              flex
-              items-center
-              p-5
-              space-x-5
-              rounded-xl
-              shadow-lg
-            "
-          >
-            <div class="text-center">
-              <h1 class="text-4xl font-bold text-purple-400">7</h1>
-              <p class="font-semibold">Mei</p>
-            </div>
-            <div>
-              <h1 class="font-semibold">Event Title</h1>
-              <p class="text-sm text-gray-500">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry...
-              </p>
-            </div>
-          </div>
-          <div
-            class="
-              w-full
-              bg-white
-              flex
-              items-center
-              p-5
-              space-x-5
-              rounded-xl
-              shadow-lg
-            "
-          >
-            <div class="text-center">
-              <h1 class="text-4xl font-bold text-purple-400">7</h1>
-              <p class="font-semibold">Mei</p>
-            </div>
-            <div>
-              <h1 class="font-semibold">Event Title</h1>
-              <p class="text-sm text-gray-500">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry...
-              </p>
-            </div>
-          </div>
+          <EventMiniCard v-for="recent in recents" :key="recent.index" :date="recent.date" :month="recent.month" :title="recent.title" :description="recent.description"/>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import EventMiniCard from "../events/EventMiniCard.vue"
+export default {
+    data() {
+        return {
+            recents: [{
+                    date: "7",
+                    month: "Mei",
+                    title: "Title",
+                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+                }, {
+                    date: "7",
+                    month: "Mei",
+                    title: "Title",
+                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+                },
+            ]
+        };
+    },
+    components: { EventMiniCard }
+}
+</script>
