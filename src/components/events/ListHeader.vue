@@ -1,5 +1,5 @@
 <template>
-  <a @click="redirect(url)" class="space-y-6">
+  <router-link :to="url" class="space-y-6">
     <div class="relative">
       <img src="../../assets/images/wave_event.png" alt="" class="absolute" />
       <div class="absolute top-8 left-10 font-bold text-2xl text-white">
@@ -15,7 +15,7 @@
     <p class="text-gray-800 pb-5" style="margin-top: 0">
       {{ description }}
     </p>
-  </a>
+  </router-link>
 </template>
 
 <script>

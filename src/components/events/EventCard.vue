@@ -1,5 +1,5 @@
 <template>
-  <a @click="redirect(url)" class="flex flex-col">
+  <router-link :to="url" class="flex flex-col">
     <div class="relative pb-5">
       <img src="../../assets/images/wave_event.png" alt="" class="absolute" />
       <div class="absolute top-8 left-10 font-bold text-2xl text-white">
@@ -15,7 +15,7 @@
     <p class="text-gray-800 m-0" style="margin-top: 0">
       {{ description }}
     </p>
-  </a>
+  </router-link>
 </template>
 
 <script>
@@ -28,12 +28,7 @@ export default {
     month: String,
     title: String,
     description: String,
-  },
-  methods: {
-    redirect: function (link = "/", target = "_blank") {
-      window.open(link, target);
-    },
-  },
+  }
 };
 </script>
 
