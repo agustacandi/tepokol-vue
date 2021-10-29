@@ -53,23 +53,44 @@
         </p>
         <div class="flex">
           <div
-            class="
-              uppercase
-              py-5
-              px-10
-              border-b-4 border-yellow-400
-              text-yellow-400
+            class="uppercase py-5 px-10 cursor-pointer"
+            :class="
+              active == 'visi'
+                ? `border-b-4 border-yellow-400
+              text-yellow-400 font-bold`
+                : `text-gray-500 opacity-80 border-b-4 border-gray-300`
             "
+            @click="changeContent('visi')"
           >
             Visi
           </div>
-          <div class="uppercase py-5 px-10 border-b-4 border-gray-300">
+          <div
+            class="uppercase py-5 px-10 cursor-pointer"
+            :class="
+              active == 'misi'
+                ? `border-b-4 border-yellow-400 font-bold
+              text-yellow-400`
+                : `text-gray-500 opacity-80 border-b-4 border-gray-300`
+            "
+            @click="changeContent('misi')"
+          >
             Misi
           </div>
         </div>
-        <p class="max-w-xl lg:text-lg text-gray-500 opacity-80 pt-5">
+        <p
+          class="max-w-xl lg:text-lg text-gray-500 opacity-80 pt-5"
+          :class="active == 'visi' ? 'block' : 'hidden'"
+        >
           Examples of anxiety disorders include generalized anxiety disorder.
         </p>
+        <div
+          class="max-w-xl lg:text-lg text-gray-500 opacity-80 pt-5"
+          :class="active == 'misi' ? 'block' : 'hidden'"
+        >
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, odit.</p>
+          <p>Examples of anxiety disorders include generalized anxiety disorder.</p>
+          <p>Examples of anxiety disorders include generalized anxiety disorder.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -78,5 +99,15 @@
 <script>
 export default {
   name: "AboutSection",
+  data() {
+    return {
+      active: "visi",
+    };
+  },
+  methods: {
+    changeContent(data) {
+      this.active = data;
+    },
+  },
 };
 </script>
