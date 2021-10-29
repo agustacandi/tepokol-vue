@@ -13,7 +13,7 @@
         }}</a>
         <span :class="slug ? 'block-inline' : 'hidden'"> &gt; </span>
         <a href="" :class="slug ? 'block-inline text-yellow-400' : 'hidden'">{{
-          menu
+          slug
         }}</a>
       </p>
     </div>

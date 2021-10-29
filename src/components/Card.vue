@@ -1,6 +1,6 @@
 <template>
     <div class="md:w-10/12 lg:w-full p-10 w-72 text-center rounded-xl shadow-xl bg-white relative z-30">
-        <img :src="'../assets/images/orang.png'" alt="Orang" class="mx-auto" />
+        <img src="../assets/images/orang.png" alt="Orang" class="mx-auto" />
         <h3 class="pt-5 font-semibold text-yellow-400">{{ name }}</h3>
         <p class="pb-5 text-gray-600">{{ jabatan }}</p>
         <div class="flex md:justify-center md:space-x-10 justify-around">
