@@ -14,7 +14,7 @@
         <div
           class="w-full h-60 md:h-96 p-5 md:p-10 flex items-end rounded-xl"
           style="
-            background-image: url('src/assets/images/card-blog4.png');
+            background-image: url('../assets/images/card-blog4.png');
             background-size: cover;
             background-repeat: no-repeat;
           "
@@ -64,7 +64,7 @@
               rounded-xl
             "
             style="
-              background-image: url('src/assets/images/card-blog.png');
+              background-image: url('../assets/images/card-blog.png');
               background-size: cover;
               background-repeat: no-repeat;
             "
@@ -103,7 +103,7 @@
               rounded-xl
             "
             style="
-              background-image: url('src/assets/images/card-blog2.png');
+              background-image: url('../assets/images/card-blog2.png');
               background-size: cover;
               background-repeat: no-repeat;
             "
@@ -151,7 +151,7 @@
               rounded-xl
             "
             style="
-              background-image: url('src/assets/images/card-blog3.png');
+              background-image: url('../assets/images/card-blog3.png');
               background-size: cover;
               background-repeat: no-repeat;
             "
@@ -190,7 +190,7 @@
               rounded-xl
             "
             style="
-              background-image: url('src/assets/images/card-blog5.png');
+              background-image: url('../assets/images/card-blog5.png');
               background-size: cover;
               background-repeat: no-repeat;
             "

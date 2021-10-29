@@ -109,7 +109,7 @@
                     lg:space-x-10 lg:space-y-0 lg:flex-row
                     pb-5
                 ">
-                    <a href="/event/having-a-trouble-with-an-anxiety" class="flex flex-col">
+                    <router-link to="/event/having-a-trouble-with-an-anxiety" class="flex flex-col">
                         <div class="relative pb-5">
                             <img src="./../assets/images/wave_event.png" alt="" class="absolute" />
                             <div class="absolute top-8 left-10 font-bold text-2xl text-white">
@@ -124,8 +124,8 @@
                             industry. Lorem Ipsum has been the industry's standard dummy
                             text ever since the 1500s
                         </p>
-                    </a>
-                    <a href="/event/having-a-trouble-with-an-anxiety" class="flex flex-col">
+                    </router-link>
+                    <router-link to="/event/having-a-trouble-with-an-anxiety" class="flex flex-col">
                         <div class="relative pb-5">
                             <img src="./../assets/images/wave_event.png" alt="" class="absolute" />
                             <div class="absolute top-8 left-10 font-bold text-2xl text-white">
@@ -140,8 +140,8 @@
                             industry. Lorem Ipsum has been the industry's standard dummy
                             text ever since the 1500s
                         </p>
-                    </a>
-                    <a href="/event/having-a-trouble-with-an-anxiety" class="flex flex-col">
+                    </router-link>
+                    <router-link to="/event/having-a-trouble-with-an-anxiety" class="flex flex-col">
                         <div class="relative pb-5">
                             <img src="./../assets/images/wave_event.png" alt="" class="absolute" />
                             <div class="absolute top-8 left-10 font-bold text-2xl text-white">
@@ -156,7 +156,7 @@
                             industry. Lorem Ipsum has been the industry's standard dummy
                             text ever since the 1500s
                         </p>
-                    </a>
+                    </router-link>
                 </div>
             </div>
         </div>
