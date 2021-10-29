@@ -13,7 +13,7 @@ module.exports = {
         'tp-blue-3': '#415BBD',
         'tp-dark': '#0A1931',
         'tp-white': '#F5F7FB',
-        'tp-white-2': '#DBE6FD',
+        'tp-white-2': '#F0F2F9',
         'tp-orange': '#F7B308',
         'tp-gray': '#464E5A'
       }

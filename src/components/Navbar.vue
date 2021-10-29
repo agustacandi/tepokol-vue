@@ -10,9 +10,10 @@
             top-0
             z-50
         "
-        :class="scrollTop > 50 ? 'lg:bg-white' : ''"
+        :class="scrollTop > 50 ? 'lg:bg-tp-white lg:shadow-xl' : ''"
         id="navbar"
         @scroll="handleScroll"
+        @click="log"
     >
         <div
             class="
@@ -25,7 +26,7 @@
                 items-center
             "
         >
-            <div class="font-bold lg:text-2xl text-white uppercase" id="nav-title">
+            <div class="font-bold lg:text-2xl text-white uppercase" :style="{color: navbarColors[$route.path]}" id="nav-title">
                 Tepokol
             </div>
             <div class="space-x-10 hidden lg:flex" id="nav-items">
@@ -70,13 +71,27 @@ export default {
     name: 'Navbar',
     data() {
         return {
-            scrollTop: null
+            scrollTop: null,
+            navbarColors: {
+                '/' : 'black',
+                '/about' : 'white',
+                '/event' : 'white',
+                '/gallery' : 'white',
+                '/blog' : 'white',
+                '/contact' : 'white'
+            }
         }
     },
     methods: {
         handleScroll(e) {
             this.scrollTop = document.documentElement.scrollTop
-        }
+        },
+        log() {
+      console.log(this.path)
+    },
+    pathname() {
+        this.path = this.$route.fullPath
+    }
     },
     created() {
         window.addEventListener('scroll', this.handleScroll);
@@ -152,5 +167,15 @@ export default {
 	color: black !important;
 }
 
+@media (min-width: 1024px) {
+	/* Navbar */
 
+	#nav-icon {
+		display: none;
+	}
+
+	#nav-icon-white {
+		display: none;
+	}
+}
 </style>
