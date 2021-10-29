@@ -87,9 +87,16 @@
           class="max-w-xl lg:text-lg text-gray-500 opacity-80 pt-5"
           :class="active == 'misi' ? 'block' : 'hidden'"
         >
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, odit.</p>
-          <p>Examples of anxiety disorders include generalized anxiety disorder.</p>
-          <p>Examples of anxiety disorders include generalized anxiety disorder.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+            odit.
+          </p>
+          <p>
+            Examples of anxiety disorders include generalized anxiety disorder.
+          </p>
+          <p>
+            Examples of anxiety disorders include generalized anxiety disorder.
+          </p>
         </div>
       </div>
     </div>
