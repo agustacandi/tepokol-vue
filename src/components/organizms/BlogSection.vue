@@ -51,7 +51,7 @@
             rounded-xl
           "
           style="
-            background-image: url('src/assets/images/card-blog.png');
+            background-image: url('/card-blog.png');
             background-size: cover;
             background-repeat: no-repeat;
           "
@@ -91,7 +91,7 @@
             rounded-xl
           "
           style="
-            background-image: url('src/assets/images/card-blog2.png');
+            background-image: url('/card-blog2.png');
             background-size: cover;
             background-repeat: no-repeat;
           "
@@ -131,7 +131,7 @@
             rounded-xl
           "
           style="
-            background-image: url('src/assets/images/card-blog3.png');
+            background-image: url('/card-blog3.png');
             background-size: cover;
             background-repeat: no-repeat;
           "
