@@ -46,8 +46,7 @@
 						items-center
 						lg:flex-row lg:justify-center lg:space-x-10
 					">
-                <Card v-for="team in teams" :key="team.index" :name="team.name" :image="image"
-                    :jabatan="team.jabatan" />
+                <Card v-for="team in teams" :key="team.index" :name="team.name" :image="image" :jabatan="team.jabatan" />
             </div>
             <div class="
 						flex flex-col
@@ -57,8 +56,7 @@
 						items-center
 						lg:flex-row lg:justify-center lg:space-x-10
 					">
-                <Card v-for="team in teams" :key="team.index" :name="team.name" :image="image"
-                    :jabatan="team.jabatan" />
+                <Card v-for="team in teams" :key="team.index" :name="team.name" :image="image" :jabatan="team.jabatan" />
             </div>
             <h1 class="
 						lg:text-center
@@ -78,8 +76,7 @@
 						items-center
 						lg:flex-row lg:justify-center lg:space-x-10
 					">
-                <Card v-for="team in teams" :key="team.index" :name="team.name" :image="image"
-                    :jabatan="team.jabatan" />
+                <Card v-for="team in teams" :key="team.index" :name="team.name" :image="image" :jabatan="team.jabatan" />
             </div>
         </div>
     </main>
@@ -89,10 +86,10 @@
     import Hero from "../components/Hero.vue";
     import Card from "../components/Card.vue";
 
-    export default ({
-        data() {
-            return {
-                teams: [{
+export default ({
+    data() {
+        return {
+            teams: [{
                     name: 'Hikari Rei',
                     image: 'Tadek',
                     jabatan: 'Wakil Ketua HMJ II 2021'
@@ -104,13 +101,14 @@
                     name: 'Miya Mizu',
                     image: 'Tadek',
                     jabatan: 'Wakil Ketua HMJ II 2021'
-                }, ]
-            }
-        },
-        name: 'About',
-        components: {
-            Hero,
-            Card,
-        },
-    })
+                },
+            ]
+        }
+    },
+    name: 'About',
+    components: {
+        Hero,
+        Card,
+    },
+})
 </script>
