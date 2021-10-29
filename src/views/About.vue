@@ -1,4 +1,5 @@
 <template>
+    <Hero menu="About"/>
     <!-- Main -->
     <main>
         <div class="lg:container lg:mx-auto px-5 py-20 lg:py-32 lg:px-10">
@@ -89,12 +90,14 @@
 </template>
 
 <script>
+import Hero from '../components/Hero.vue'
 import Card from '../components/Card.vue'
 
 export default ({
     name: 'About',
     components: {
-        Card
+        Hero,
+        Card,
     }
 })
 </script>
