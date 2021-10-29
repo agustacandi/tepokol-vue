@@ -10,7 +10,7 @@
 									rounded-xl
 									shadow-lg
 								">
-            <div class="text-center">
+            <div class="text-center px-5">
                 <h1 class="text-4xl font-bold text-purple-400">{{ date }}</h1>
                 <p class="font-semibold">{{ month }}</p>
             </div>

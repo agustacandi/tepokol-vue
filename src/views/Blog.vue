@@ -1,6 +1,6 @@
 <template>
   <hero menu="Blog" />
-  <main class="py-5 lg:py-10">
+  <main class="py-5 lg:py-10 bg-tp-white">
     <div
       class="
         lg:container

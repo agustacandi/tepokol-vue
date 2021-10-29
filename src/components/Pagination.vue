@@ -13,7 +13,7 @@
 									rounded-md
 								">
                 <a href="#" class="flex items-center space-x-3">
-                    <img src="../../assets/images/arrow-left.svg" alt="" class="w-auto" />
+                    <img src="../assets/images/arrow-left.svg" alt="" class="w-auto" />
                     <p class="text-sm hidden lg:block">Prev</p>
                 </a>
                 <div class="flex items-center space-x-5">
@@ -38,7 +38,7 @@
                 </div>
                 <a href="#" class="flex items-center lg:space-x-3">
                     <p class="text-sm hidden lg:block">Next</p>
-                    <img src="../../assets/images/arrow-right.svg" alt="" />
+                    <img src="../assets/images/arrow-right.svg" alt="" />
                 </a>
             </div>
         </div>

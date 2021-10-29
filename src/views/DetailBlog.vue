@@ -11,14 +11,10 @@
       "
     >
       <div class="lg:w-8/12 space-y-5 lg:space-y-5">
-        <div
-          class="w-full h-60 md:h-96 px-10 py-12 rounded-xl"
-          style="
-            background-image: url('src/assets/images/card-blog4.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-          "
-        ></div>
+        <img
+        src="../assets/images/card-blog4.png"
+          class="w-full h-60 md:h-96 rounded-xl"
+        >
         <div class="space-y-5">
           <div class="flex justify-between items-center">
             <div class="flex items-center space-x-4">

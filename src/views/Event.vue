@@ -1,7 +1,7 @@
 <template>
     <Hero menu="Event"/>
     <!-- Main -->
-    <main class="py-10">
+    <main class="py-10 bg-tp-white">
         <div class="
 					lg:container
 					flex flex-col
@@ -33,18 +33,30 @@
                 <Pagination />
             </div>
             <aside class="lg:w-4/12">
-                <div class="
-							flex
-							items-center
-							justify-between
-							bg-white
-							py-3
-							px-5
-							rounded-md
-						" id="search-bar">
-                    <input type="text" class="focus:outline-none text-gray-500" placeholder="Search..." />
-                    <img src="./../assets/images/search.svg" alt="" class="cursor-pointer" />
-                </div>
+                <div
+          class="
+            w-full
+            flex
+            items-center
+            justify-between
+            bg-white
+            py-3
+            px-5
+            rounded-md
+          "
+          id="search-bar"
+        >
+          <input
+            type="text"
+            class="w-full focus:outline-none text-gray-500"
+            placeholder="Search..."
+          />
+          <img
+            src="../assets/images/search.svg"
+            alt=""
+            class="cursor-pointer"
+          />
+        </div>
                 <h1 class="lg:text-2xl font-semibold pt-8" id="title-1">
                     Recent Event
                 </h1>

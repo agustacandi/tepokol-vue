@@ -77,6 +77,8 @@ export default {
                 '/about' : 'white',
                 '/event' : 'white',
                 '/gallery' : 'white',
+                '/event/having-a-trouble-with-an-anxiety': 'white',
+                '/blog/having-a-trouble-with-an-anxiety': 'white',
                 '/blog' : 'white',
                 '/contact' : 'white'
             }
@@ -165,6 +167,12 @@ export default {
 
 .black {
 	color: black !important;
+}
+
+@media (max-width: 768px) {
+    #nav-title {
+        color: black !important;
+    }
 }
 
 @media (min-width: 1024px) {

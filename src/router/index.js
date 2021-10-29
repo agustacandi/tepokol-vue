@@ -9,6 +9,7 @@ import DetailEvent from '../views/DetailEvent.vue'
 import Gallery from '../views/Gallery.vue'
 import Blog from '../views/Blog.vue'
 import DetailBlog from '../views/DetailBlog.vue'
+import Contact from '../views/Contact.vue'
 
 const routes = [{
         path: '/',
@@ -31,6 +32,11 @@ const routes = [{
         component: DetailEvent
     },
     {
+        path: '/blog/having-a-trouble-with-an-anxiety',
+        name: 'DetailBlog',
+        component: DetailBlog
+    },
+    {
         path: '/gallery',
         name: 'Gallery',
         component: Gallery
@@ -38,12 +44,12 @@ const routes = [{
     {
         path: '/blog',
         name: 'Blog',
-        component: About
+        component: Blog
     },
     {
         path: '/contact',
         name: 'Contact',
-        component: About
+        component: Contact
     }
 ]
 
