@@ -82,53 +82,7 @@
                     :jabatan="team.jabatan" />
             </div>
         </div>
-        <p class="lg:text-lg text-gray-500 opacity-80 pt-5">
-            Examples of anxiety disorders include generalized anxiety disorder.
-        </p>
-        <h1 class="lg:text-center font-semibold text-xl lg:text-3xl pt-10" id="recent-post-title">
-            Structure Organization
-        </h1>
-        <div class="
-          flex flex-col
-          space-y-10
-          lg:space-y-0
-          pt-10
-          items-center
-          lg:flex-row lg:justify-center lg:space-x-10
-        ">
-            <Card name="Hikari Rei" image="Tadek" jabatan="Wakil Ketua HMJ II 2021" facebook="#" />
-            <Card name="Itoshi Asuka" image="Tadek" jabatan="Ketua HMJ 2021" />
-            <Card name="Miya Mizu" image="Tadek" jabatan="Wakil Ketua HMJ II 2021" />
-        </div>
-        <div class="
-          flex flex-col
-          space-y-10
-          lg:space-y-0
-          pt-10
-          items-center
-          lg:flex-row lg:justify-center lg:space-x-10
-        ">
-            <Card name="Hikari Rei" image="Tadek" jabatan="Wakil Ketua HMJ II 2021" />
-            <Card name="Itoshi Asuka" image="Tadek" jabatan="Ketua HMJ 2021" />
-            <Card name="Miya Mizu" image="Tadek" jabatan="Wakil Ketua HMJ II 2021" />
-        </div>
-        <h1 class="lg:text-center font-semibold text-xl lg:text-3xl pt-10 lg:pt-20" id="recent-post-title">
-            Departement
-        </h1>
-        <div class="
-          flex flex-col
-          space-y-10
-          lg:space-y-0
-          pt-10
-          items-center
-          lg:flex-row lg:justify-center lg:space-x-10
-        ">
-            <Card name="Hikari Rei" image="Tadek" jabatan="Wakil Ketua HMJ II 2021" />
-            <Card name="Itoshi Asuka" image="Tadek" jabatan="Ketua HMJ 2021" />
-            <Card name="Miya Mizu" image="Tadek" jabatan="Wakil Ketua HMJ II 2021" />
-        </div>
     </main>
-    <Footer />
 </template>
 
 <script>
