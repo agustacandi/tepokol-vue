@@ -12,45 +12,45 @@ import DetailBlog from '../views/DetailBlog.vue'
 import Contact from '../views/Contact.vue'
 
 const routes = [{
-        path: '/',
-        name: 'Home',
-        component: Home
-    },
-    {
-        path: '/about',
-        name: 'About',
-        component: About
-    },
-    {
-        path: '/event',
-        name: 'Event',
-        component: Event
-    },
-    {
-        path: '/event/having-a-trouble-with-an-anxiety',
-        name: 'DetailEvent',
-        component: DetailEvent
-    },
-    {
-        path: '/blog/having-a-trouble-with-an-anxiety',
-        name: 'DetailBlog',
-        component: DetailBlog
-    },
-    {
-        path: '/gallery',
-        name: 'Gallery',
-        component: Gallery
-    },
-    {
-        path: '/blog',
-        name: 'Blog',
-        component: Blog
-    },
-    {
-        path: '/contact',
-        name: 'Contact',
-        component: Contact
-    }
+    path: '/',
+    name: 'Home',
+    component: Home
+},
+{
+    path: '/about',
+    name: 'About',
+    component: About
+},
+{
+    path: '/event',
+    name: 'Event',
+    component: Event
+},
+{
+    path: '/event/having-a-trouble-with-an-anxiety',
+    name: 'DetailEvent',
+    component: DetailEvent
+},
+{
+    path: '/blog/having-a-trouble-with-an-anxiety',
+    name: 'DetailBlog',
+    component: DetailBlog
+},
+{
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery
+},
+{
+    path: '/blog',
+    name: 'Blog',
+    component: Blog
+},
+{
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
+}
 ]
 
 const router = createRouter({
